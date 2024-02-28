@@ -3,7 +3,7 @@ import 'package:quiz/splash.dart';
 
 void main() {
   runApp(const Splash());
-}
+}                                                         
 
 class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);
