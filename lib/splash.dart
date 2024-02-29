@@ -16,13 +16,14 @@ class _Splash_screenState extends State<Splash_screen> {
     // TODO: implement initState
     super.initState();
         Timer(Duration(seconds:2),(){
+
           Navigator.push(context,MaterialPageRoute(builder:(context) =>Questions() ));
         } );
   }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
